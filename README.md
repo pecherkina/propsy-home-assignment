@@ -4,7 +4,8 @@
 **Course code:** M_PROPSY\
 **Student:** Anna Pecherkina\
 **Course coordinator:** Matthias Nau\
-**Teaching assistant:** Anna van Harmelen
+**Teaching assistant:** Anna van Harmelen\
+**Date:** 09.12.2024
 
 ## Description
 The current project provides a flexible tool for visualizing brain activity related to any psychological concept from the [Neurosynth database](https://neurosynth.org/analyses/terms/).
@@ -31,6 +32,11 @@ Data from the [Neurosynth database](https://neurosynth.org/analyses/terms/)
 ```bash
 pip install matplotlib nibabel nilearn 
 ```
+
+### Repository structure
+``data`` - directory that contains MRI data files\
+``results`` - directory with brain-map figure and histogram\
+``ptsd-visualisation.ipynb`` – Jupyter Notebook containing the code, documentation and figures.
 
 ## Features
 - Visualization of brain regions associated with psychological concepts.
